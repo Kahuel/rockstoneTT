@@ -4,15 +4,19 @@ import "./clock.css";
 export const Clock: React.FC = () => {
   const [date, setDate] = useState(new Date());
   useEffect(() => {
-    setTimeout(() => {
+    const id = setInterval(() => {
       setDate(new Date());
-    }, (60 - date.getSeconds()) * 1000);
-  }, [date]);
+    }, 1000);
+    return () => {
+      clearInterval(id);
+    };
+  }, []);
   return (
     <div className="clock-container">
       {date.toLocaleTimeString(navigator.language, {
         hour: "2-digit",
         minute: "2-digit",
+        second: "2-digit",
       })}
     </div>
   );

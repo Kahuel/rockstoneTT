@@ -22,7 +22,7 @@
 .block-left {
   top: 2vh;
   height: 95vh;
-  overflow: scroll;
+  overflow-y: scroll;
   float: left;
   position: relative;
 }
