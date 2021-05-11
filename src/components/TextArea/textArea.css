@@ -1,0 +1,14 @@
+.inputArea input {
+  height: 40px;
+  border-radius: 15px;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+}
+
+.inputArea button {
+  height: 40px;
+  border-radius: 15px;
+  left: 240px;
+  top: 20px;
+}
