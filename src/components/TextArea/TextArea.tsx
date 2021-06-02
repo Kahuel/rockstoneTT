@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
 import _ from "lodash";
-import { Span } from "./Span";
-import { InputForm } from "./InputForm";
+import { Span } from "./elements/Span";
+import { InputForm } from "./elements/InputForm";
 import "./textArea.css";
 
 export const TextArea: React.FC = () => {
