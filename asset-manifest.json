@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rockstonett/static/css/main.d04dfe87.chunk.css",
+    "main.js": "/rockstonett/static/js/main.b5e427c8.chunk.js",
+    "main.js.map": "/rockstonett/static/js/main.b5e427c8.chunk.js.map",
+    "runtime-main.js": "/rockstonett/static/js/runtime-main.1b2f3fb8.js",
+    "runtime-main.js.map": "/rockstonett/static/js/runtime-main.1b2f3fb8.js.map",
+    "static/js/2.b653fae7.chunk.js": "/rockstonett/static/js/2.b653fae7.chunk.js",
+    "static/js/2.b653fae7.chunk.js.map": "/rockstonett/static/js/2.b653fae7.chunk.js.map",
+    "index.html": "/rockstonett/index.html",
+    "static/css/main.d04dfe87.chunk.css.map": "/rockstonett/static/css/main.d04dfe87.chunk.css.map",
+    "static/js/2.b653fae7.chunk.js.LICENSE.txt": "/rockstonett/static/js/2.b653fae7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b2f3fb8.js",
+    "static/js/2.b653fae7.chunk.js",
+    "static/css/main.d04dfe87.chunk.css",
+    "static/js/main.b5e427c8.chunk.js"
+  ]
+}
